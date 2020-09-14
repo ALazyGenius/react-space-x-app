@@ -13,11 +13,12 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm run build",
+    "dev:start": "react-scripts start",
     "dev:start-ssr": "node server/index.js"
   },
   "eslintConfig": {

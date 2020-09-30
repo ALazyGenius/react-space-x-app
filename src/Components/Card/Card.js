@@ -59,7 +59,7 @@ const Card = (props) => {
           {CONSTANTS.content.SUCCESSFUL_LAUNCH}
           </span>
           <span className="space-x-card_content_successful-launch_year">
-            {cardData.launch_success.toString()}
+            {cardData.launch_success && cardData.launch_success.toString()}
           </span>
         </div>
         <div className="space-x-card_content_successful-landing">

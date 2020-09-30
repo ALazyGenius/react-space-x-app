@@ -3,7 +3,7 @@ const CONSTANTS = {
     SPACEX_LAUNCH_PROGRAMS: "SpaceX Launch Programs",
     LOADING: "Loading...",
     NO_DATA_AVAILABLE: "No Data Available",
-    COPYRIGHT: "Developed by Vratika Goel",
+    COPYRIGHT: "Developed by Akash Mishra",
     MISSION_PATCH_ALT: "Misson Patch",
     HASH: "#",
     MISSION_IDS: "Mission Ids:",

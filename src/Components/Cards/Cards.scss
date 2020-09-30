@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .space-x-cards {
+    justify-content: center;
     margin-left: 0;
     &_details {
       min-width: 220px;
@@ -21,6 +22,14 @@
     &_details {
       padding-left: 0;
       min-width: 350px;
+    }
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .space-x-cards {
+    &_details {
+      min-width: 320px;
     }
   }
 }
